@@ -1,0 +1,39 @@
+html,body {
+ height: 100%;
+ background-color: purple;
+ font-family: 'arial';
+ font-size: 16px;
+}
+
+.wrapper{
+	display: flex;
+	background-color: yellow;
+	border: 2px solid gray;
+	flex-wrap: nowrap;
+}
+
+.box{
+	background-color: yellow;
+	color: white;
+	text-align: center;
+	width: 200px;
+}
+.box1{
+  background-color: red;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  order: 5;
+
+ 
+}
+.box2{
+  background-color:blue;
+  order: 2;
+}
+
+.box3{
+  background-color:green;
+  order: 1;	
+}
+

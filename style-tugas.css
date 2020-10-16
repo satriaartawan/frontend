@@ -1,0 +1,330 @@
+/* CSS files add styling rules to your content */
+
+html, body {
+    font-family: Barlow;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #fff;
+    margin:0;
+    padding:0;
+  }
+  
+  .header {
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .logo a{
+    display: block;
+  width:200px;
+  margin-left:20px;
+  background:url('https://cdn.glitch.com/fad3619a-1553-44da-8e0a-a6ef6c20529d%2Flogo.png?v=1602571982507') no-repeat left top;
+  width: 250px;
+  height: 114px;
+  text-indent: -9999px;
+  text-decoration: none;
+  }
+  
+  .logo {
+    width:200px;
+    margin-left:20px;
+    
+  }
+ 
+  .judul{
+    width:50%;
+    margin-top: 3%;
+    margin-left:0%;
+    font-size: 20px;
+    color: rgb(66, 55, 44);
+  }
+  
+  .nav {
+    margin-left:auto;
+    margin-right:20px;
+  }
+  
+  .navigation{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: space-around;
+  }
+  .navigation li {
+    margin:10px 20px;
+  }
+  
+  .navigation li a {
+    padding:5px 15px;
+    text-decoration:none;
+    text-transform:uppercase;
+  }  
+  
+  .hero {
+    background:url('gambar/awan.jpg') no-repeat left bottom;
+    width: 100%;
+    height:500px;
+    background-size: cover;
+  
+  }
+  
+  .hero > h2 {
+    margin:0;
+    padding:20px;
+    color: #fff;
+    font-size: 3em;
+    margin-left: 6%;
+    padding-top: 10%;    
+    font-family: Barlow;
+
+  }
+  .hero h3{
+    margin:0px;
+    padding:0px;
+    font-size:1.5em;
+    text-transform: uppercase;
+    margin-left: 7.4%;
+    border: 0;
+    color: #fff;
+    border-radius: 0px;
+    padding-top: 17%;
+    font-family: Barlow;
+  }
+  /* .hero h5{
+    margin:0px;
+    padding:0px;
+    font-size:1.5em;
+    text-transform: uppercase;
+    margin-left: 10%;
+    border: 0;
+    color: #fff;
+    border-radius: 0px;
+    padding-top: 0%;
+  } */
+  .hero button {
+    margin:20px;
+    padding:20px;
+    border: 2px solid #ffffff86;
+    background-color:#be7a2200;
+    color:#fff;
+    font-size:1em;
+    border-radius: 0px;
+    text-transform: uppercase;
+    margin-left: 7.5%;
+    margin-top: 0%;
+    font-family: Barlow;
+  }
+  
+  .wrap-content {
+    margin:2em;
+    text-align: left;
+    margin-left: 6.5em;
+    padding-top: 20px;
+  }
+  .wrap-content p {
+    line-height: 1.5em;
+    word-spacing: 4px;
+  }
+  .wrap-content h2{
+    color: #000;
+  }
+  
+  .wrap-product {
+    display: flex;
+    justify-content: space-evenly;
+    margin:5em 0;
+    background-color: rgba(245, 243, 243, 0.432);
+    /* background:url('images/cake3.jpg') no-repeat left bottom;
+    background-size: cover; */
+    
+  }
+  .wrap-content button{
+    margin:20px;
+    padding:20px;
+    border: 2px solid #000;
+    background-color:#be7a2200;
+    color:#000;
+    font-size:1em;
+    border-radius: 0px;
+    text-transform: uppercase;
+    margin-left: 0%;
+    margin-top: 0%;
+    font-family: Barlow;
+  }
+  
+  .product-item {
+    width:300px;
+    margin-bottom: 0px;
+    
+  }
+  .product-item p{
+    text-align: left;
+    word-spacing: 4px;
+    line-height: 1.5em;
+  }
+  .product-item h2{
+    text-align: left;
+    color: #000;
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    /* box-shadow: 5px 5px 35px 5px burlywood; */
+  }
+  .box {
+    background:rgb #fff;
+    width:100%;
+    text-align: center;
+    border:100px solid rgba(221, 221, 221, 0);
+    margin-top: -50px;
+  }
+
+  .wrap-contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin:2em 0;
+  }
+  .wrap-contact button{
+    margin:10px;
+    padding:10px;
+    border: 2px solid #000;
+    background-color:#be7a2200;
+    color:#000;
+    font-size:1em;
+    border-radius: 0px;
+    text-transform: uppercase;
+    margin-left: 0%;
+    margin-top: 0%;
+    font-family: Barlow;
+  }
+.order{
+    text-align: center;
+    font-family: Melbourne;
+    text-transform: uppercase;
+    font-size:1.5em;
+  }
+  
+  .contact-item {
+    width: 400px;
+    text-align: left;
+    word-spacing: 4px;
+    line-height: 1.5em;
+    font-family: Barlow;
+  }
+  
+  
+  .contact-item img {
+    border-radius: 50%;
+    margin:15px 0 0 0;
+  }
+
+  .wrap-form {
+    display: flex;
+    margin: 0em 0;
+    justify-content: center;
+    background-color: #152136;
+    padding-top: 50px;
+  }
+  .wrap-form button{
+    margin:20px;
+    padding:20px;
+    border: 2px solid white;
+    background-color:#be7a2200;
+    color:#fff;
+    font-size:1em;
+    border-radius: 0px;
+    text-transform: uppercase;
+    margin-left: 0%;
+    margin-top: 0%;
+    font-family: Barlow;
+  }
+  
+  .wrap-contactform {
+    width: 100%;
+    margin-left: 6.5em;
+    margin-right: 0em; 
+  }
+
+  .wrap-contactform h2{
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .wrap-input {
+    margin-bottom:20px;
+  }
+
+  
+  .input-text, .textarea {
+    border:1px solid rgb(255, 255, 255);
+    padding:10px 5px;
+    border-radius: 0px;
+    width: 80%;
+    font-size:1em;
+  }
+  
+  .button-submit {
+    padding:20px;
+    border: 0;
+    background-color:#754ef9;
+    color:#fff;
+    font-size:1em;
+    border-radius: 10px;
+    text-transform: uppercase;
+  }
+  .wrap-map iframe {
+    width:100%;
+    min-width:400px;
+    height:300px;
+  }
+  
+  .footer {
+    margin-top:0em;
+    text-align: center;
+    padding:2em 0;
+    background-color:#152136;
+    color:#fff;
+    text-align: left;
+  }
+
+ 
+
+
+  .footer p{
+    margin-left: 6.5em;
+  }
+  @media (max-width:580px){
+    .logo {
+      margin:0 auto;
+    }
+    
+    .hero {
+      height:400px;
+      text-align:center;
+    }
+    
+    .nav {
+      margin:0 auto;
+    }
+  
+    .wrap-product {
+      flex-wrap:wrap;
+      
+    }
+    
+    .wrap-form {
+      flex-wrap: wrap;
+    }
+    .wrap-contact{
+      flex-wrap: wrap;
+    }
+
+    /*-------------nav bar---------------*/
+
+    
+}
+
+
+  
